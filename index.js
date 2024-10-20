@@ -7,7 +7,7 @@ const morgan = require("morgan");
 const bodyParser = require("body-parser");
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Allow only your frontend
+  origin: "https://stone-paper-scissors-29.netlify.app/", // Allow only your frontend
   optionsSuccessStatus: 200, // Some legacy browsers choke on 204
 };
 dotenv.config();
